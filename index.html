@@ -136,32 +136,27 @@
 
         <!-- Contacto-->
         <section class="contacto">
-            <div>
-                <h2 class="contacto-titulo">CONTACTANOS</h2>
-                <div >
-                    <img src="img/Productos/Producto4.png">
-                </div>
-                <div>
+            <div class="contacto-contenedor">
+                <div class="contacto-formulario">
+                    <p class="parrafo-form">Dejanos tu consulta y nuestro personal se pondrá en contacto a la brevedad.</p>
                     <form>
                         <label for="nombre">Nombre y apellido</label>
-                        <input type="text" name="nombre" >
-
-                        <label for="Email">Email</label>
-                        <input type="text" name="nombre" >
-
-                        <label for="Email">Consultas</label>
-                        <textarea id="consulta" name="consulta" rows="4" cols="50">
-                        
-                        <input type="checkbox">newsletter   
-
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Borrar</button>
+                        <input type="text" name="nombre">
+        
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+        
+                        <label for="consulta">Consultas</label>
+                        <textarea id="consulta" name="consulta" rows="4" cols="50"></textarea>
+        
+                        <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter"> Recibir noticias y promociones</label>
+        
+                        <button type="submit" class="btn btn-dark btn-lg" >Enviar</button>
+                        <button type="reset" class="btn btn-dark btn-lg" >Borrar</button>
                     </form>
-                </div>  
-
+                </div>
             </div>
-
-        </section>        
+        </section>
         
     </main>
     

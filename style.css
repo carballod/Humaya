@@ -1,6 +1,6 @@
 
 .centro-derecha {
-    background-image: url('img/Central/imagenCentral.png'); /* Cambiar por la ruta correcta */
+    background-image: url('img/Central/imagenCentral.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -82,14 +82,87 @@ button {
     color: rgb(197, 134, 57);
 }
 
-.contacto-titulo {
+.parrafo-form {
+    font-size: 1.2rem;
+    font-weight: 200;
     text-align: center;
     width: 100%;
-    font-size: 1.8rem;
-    padding: 20px;
-    margin-bottom: 0;
+    padding: 5px;
+    padding-top: 10px;
+    color: rgb(197, 134, 57);
 }
 
 
-@media only screen and (max-width: 600px) and (min-width: 400px)  {}
+.contacto {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url('img/Productos/Producto4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 70%
+}
 
+.contacto-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    padding: 300px;
+    padding-left: 360px;
+}
+
+
+/* Path: contacto.css */
+
+.contacto-formulario {
+    flex-basis: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.contacto-titulo {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.contacto-formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-formulario label {
+    margin-top: 10px;
+}
+
+.contacto-formulario button[type="submit"],
+.contacto-formulario button[type="reset"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .contacto-contenedor {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+    
+    .contacto-formulario {
+        flex-basis: auto;
+        margin-top: 30px;
+    }
+
+    .contacto {
+        background-image: none;
+    }
+}
