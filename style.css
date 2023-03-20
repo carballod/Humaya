@@ -103,7 +103,8 @@ button {
     background-image: url('img/Productos/Producto4.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 70%
+    background-size: 100% 80%;
+    padding: 0;
 }
 
 .contacto-contenedor {
@@ -113,6 +114,7 @@ button {
     width: 100%;
     height: 300px;
     padding: 300px;
+    padding-top: 220px;
     padding-left: 360px;
 }
 
@@ -121,14 +123,18 @@ button {
 
 .contacto-formulario {
     flex-basis: 50%;
-    padding: 20px;
+    padding: 10px;
     background-color: #ffffff;
 }
 
 .contacto-titulo {
     text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     font-size: 1.8rem;
-    margin-top: 0;
+    font-weight: bold;
 }
 
 .contacto-formulario form {
@@ -150,6 +156,37 @@ button {
     cursor: pointer;
 }
 
+.recetas {
+    background-color: #171616;
+    color: #ffffff;
+    padding: 50px 180px;
+}
+
+.recetas-titulo {
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.card-recetas {
+    background-color: #BCA177;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#card-titulo {
+    color: #ffffff;
+    font-weight: 500;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #755c35;
+}
+
 @media (max-width: 767px) {
     .contacto-contenedor {
         flex-direction: column;
@@ -165,4 +202,12 @@ button {
     .contacto {
         background-image: none;
     }
+
+    .portada-parrafo {
+        display: none;
+    }
+
+    .recetas {
+        padding: 50px 20px;
+    }	
 }
