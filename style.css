@@ -1,3 +1,4 @@
+
 .centro-derecha {
     background-image: url('img/Central/imagenCentral.png'); /* Cambiar por la ruta correcta */
     background-size: cover;
@@ -24,11 +25,69 @@ h1 {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 200;
 }
 
 button {
     font-size: 1.8rem;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(97, 94, 94);
+    margin-bottom: 0;
+}
+
+.productos-titulo {
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 20px;
+    background-color: rgb(97, 94, 94);
+    margin-bottom: 0;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+}
+
+.card-tittle {
+    color: rgb(197, 134, 57);
+    font-weight: 200;
+    padding-top: 20px;
+}
+.parrafo-01 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.parrafo-02 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    color: rgb(197, 134, 57);
+}
+
+.contacto-titulo {
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 20px;
+    margin-bottom: 0;
 }
 
 
